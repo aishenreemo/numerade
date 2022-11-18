@@ -1,7 +1,8 @@
-require('dotenv').config()
 import { NClient } from "./structures/client";
+import dotenv from "dotenv";
 
 export const client = new NClient();
+dotenv.config();
 client.run();
 
 /*
